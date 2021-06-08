@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+h1 h2 h3 h4 h5 h6 {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+
+}
+.col-4{
+    width: 33.3333%;
+}
+.quality{
+    padding: 96px 0 118px;
+}
+.box-quality{
+    position: relative;
+    width: 360px;
+    height: 241px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+
+    text-align: center;
+
+}
+.quality-img{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.quality-svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.quality-title{
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin: 40px 0 25px;
+}
+.quality-desk{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin: 11px 31px 24px;
+}
+.quality-link{
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    margin: 0 0 18px;
+}
+/*###products##*/
+.products{
+
+}
+.products-title{
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 48px;
+    text-align: center;
+    color: #170C04;
+}
+.products-desk{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin: 18px 0 25px;
+}
+.products-img{
+    width: 555px;
+    height: 420px;
+    padding: 71px 91px;
+    background: #FCF2EB;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
